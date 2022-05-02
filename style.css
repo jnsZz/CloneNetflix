@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color:#111010;
+    font-family: 'Varela Round', sans-serif;
+    color:white;
+    overflow-x: hidden;
+    position: relative;
+    display:block ;
+    justify-content: center;
+    
+}
+h1 {
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-left: 40px;
+}
+/*topo do site*/
+header {
+    background: linear-gradient(180deg, #1f0000 0%, #111111 100%);
+    padding: 10px;
+    display: flex;
+    
+}
+/*logo netflix*/
+.logo{
+    margin-top: 10px;
+    margin-left: 43px;
+}
+/*logo do usuario*/
+.usuario{
+    margin-top: 3px;
+    margin-left: 30px;
+}
+/*caixa de busca*/
+.direita{
+    position: absolute;
+    display: flex;
+    right: 35px;
+    top: 30px;
+}
+.imgpesquisar{
+    margin-right: 10px;
+}
+#divBusca{
+    background-color:#161616;
+    border:solid 1px;
+    border-radius:5px;
+    width:300px;
+    margin-top: 3px;
+    height: 40px;
+  }
+  
+  #txtBusca{
+    color: rgb(255, 255, 255);
+    float:left;
+    background-color:transparent;
+    border-radius:5px;
+    padding-left:5px;
+    font-size:13px;
+    border:none;
+    border-color: #1f0000;
+    height:40px;
+    width:295px;
+  }
+/*texto do topo*/
+.texthead {
+    margin-top: 22px;
+    margin-left: 40px;  
+    font-size: 13px;
+    transition: 1s;
+    color: white;
+}
+.texthead:hover {
+    color:rgb(146, 144, 144);
+    transition: 1s;
+}
+.texthead:after {
+    transition: 1s;
+    
+    
+}
+/*series*/
+.pequeno{
+    font-size: 10px;
+}
+.series {
+    text-decoration: none;
+    width: 300px;
+    margin-left: 60px;
+    justify-content: center;
+    display: inline-block;
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-align: center;
+}
+.series:hover {
+    transform:scale(1.25,1.25);
+    transition-delay:0.2s;  
+}
+.series:after{
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
+}
+/*comentario das imagens*/
+#comentario {
+    padding: 2px;
+    background:#242424;
+    color:#fff;
+    display: block;
+    opacity: 0;
+    box-shadow:0 15px 15px 0 rgba(0, 0, 0, 0.1);
+    backface-visibility: hidden;
+    border-radius: 5px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+   }
+
+.series:hover #comentario{
+    opacity: 1;
+    transition-delay:0.2s;
+}
+.filmes:hover #comentario{
+    opacity: 1;
+    transition-delay:0.2s;
+}
+/*classificao indicativa*/
+
+.iifoto {
+    margin-left: 1px;
+}
+
+/*parte dos filmes*/
+.filmes {
+    text-decoration: none;
+    width: 300px;
+    margin-left: 60px;
+    justify-content: center;
+    display: inline-block;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-align: center;
+}
+.filmes:hover {
+    transform:scale(1.25,1.25);
+    transition-delay:0.2s;  
+}
+.filmes:after{
+    box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+footer {
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(17,17,17,1) 0%, rgb(26, 0, 0) 100%);
+    font-size: 10px;
+    
+}

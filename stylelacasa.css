@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:#111010;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+} 
+header {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    background: linear-gradient(180deg, #1f0000 0%, #111111 100%);
+}
+.img_top {
+    margin-top: 5px;
+    margin-left: 38px;
+}
+.txt_inicio {
+    margin-top: 17px;
+    margin-left: 40px;  
+    font-size: 13px;
+    transition: 1s;
+    color: white;
+}
+.txt_inicio:hover {
+    color: rgb(160, 159, 159);
+}
+.tudo {
+    margin:auto;
+    width: 600px;
+    margin-top: 10px;
+}
+.img_p{
+    float: left;
+}
+.titulo {
+    text-align: center;
+    white-space: nowrap;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-left: 249px;
+    max-width: 330px;
+    border-radius: 5px;
+}
+.txt_sub {
+    width: 325px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.btn_trailer{
+    max-width: 170px;
+    margin-top: 130px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(255, 43, 43);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.btn_trailer:hover {
+  background-color: rgb(250, 96, 96);
+}
+a {
+    text-decoration:none;
+}
+.txt_subt {
+    white-space: nowrap;
+    margin-top: 7px;
+    margin-left: 250px;
+    font-size: 13px;
+}
+.txt_tags {
+    margin-top: 5px;
+    font-size: 10px;
+    justify-content: center;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 5px;
+    background-color: rgb(167, 165, 165);
+    max-width: 63px;
+    border-radius: 9px;
+    color: rgb(39, 38, 38);
+    float: left;
+}
+.txt_tags2 {
+    white-space: nowrap;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 1px 10px 3px 10px ;
+    margin-left: 50px;
+    font-size: 10px;
+    background-color: rgb(167, 165, 165);
+    max-width: 40px;
+    border-radius: 9px;
+    color: rgb(39, 38, 38);
+    display: flex;
+}
+.txt_tags:hover {
+    background-color: rgb(194, 194, 194);
+}
+.txt_tags2:hover {
+    background-color: rgb(194, 194, 194);
+}
+footer {
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(17,17,17,1) 0%, rgb(26, 0, 0) 100%);
+    font-size: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%; 
+}

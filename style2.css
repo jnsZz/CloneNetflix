@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+header {
+    background: linear-gradient(180deg, rgba(32,0,0,1) 0%, rgba(17,16,16,1) 100%);
+    padding: 10px;
+    display: flex;
+}
+.imagem {
+    margin-top: 10px;
+    margin-left: 43px;
+}
+body {
+    background-color:#111010;
+    font-family: 'Varela Round', sans-serif;
+    color:white; 
+}
+.tudo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 9em;
+    border-radius: 10px;
+    padding:10px;
+    background-color: rgba(83, 83, 83, 0.192);
+    padding-left:50px;
+    padding-right: 250px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 20px black;
+    padding-bottom: 30px;
+}
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#divBusca{
+
+    background-color:#111111;
+    border:solid 1px;
+    border-radius:5px;
+    width: 350px;
+    margin-top: 15px;
+    height: 45px;
+    color: rgb(255, 50, 50);
+}
+#txtBusca{
+    color: rgb(255, 255, 255);
+    float:left;
+    background-color:transparent;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:14px;
+    border:none;
+    border-color: #000000;
+    height:45px;
+    width:340px;
+  }
+.entrar{
+    background-color: rgb(255, 0, 0);
+    margin-top: 12px;
+    border-radius: 5px;
+    padding-left: 153px;
+    padding-right: 153px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.entrar1{
+    margin-top: 50px;
+    
+}
+
+.entrar:hover {
+    background-color: rgb(252, 145, 145);
+}
+.checkbox {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #979494;
+}
+.senha {
+    font-size: 12px;
+    margin-left: 230px;
+    white-space: nowrap;
+    margin-top: -34px;
+    color: #979494;
+}
+.assine {
+    margin-left: 132px;
+    margin-top: 90px;
+    text-align: center;
+    white-space: nowrap;
+    color: #979494;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.assine2 {
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(102, 101, 101);
+    border-radius: 10px;
+}
+.assine2:hover {
+    background-color: rgb(141, 140, 140);
+}
+footer {
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(17,17,17,1) 0%, rgb(26, 0, 0) 100%);
+    font-size: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%; 
+}
+.assine12 {
+    margin-left: 120px;
+    justify-content: center;
+    align-items: center;
+}
